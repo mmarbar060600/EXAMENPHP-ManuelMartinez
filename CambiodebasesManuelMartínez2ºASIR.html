@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora base Examen Manuel Martínez 2ºASIR</title>
+</head>
+<body>
+<form method="post" action="bases.php" target="_blank">
+    <p><b>Opción 1: numero concreto</b></p>
+		<p>Numero: <input type="text" name="numero"></p>
+        <p><b>Opción 2: Número aleatorio NOTA: El rango de numero es de 0 a 2048</b></p>
+        <input type="radio" name="radio" value="si">Si
+        <input type="radio" name="radio" value="no">No<br>
+        <p><b>Seleccione una conversión</b></p>
+		<select name="operador">
+			<option value="1">Decimal a binario
+			</option>
+			<option value="2">Decimal a octal
+			</option>
+			<option value="3">Decimal a hexadecimal
+			</option>
+			<option value="4">Binario a decimal
+			</option>
+			<option value="5">Octal a Decimal
+			</option>
+			<option value="6">Hexadecimal a Decimal
+			</option>
+		</select><br>
+		<input type="submit" value="Realizar conversión">
+		<input type="reset" value="Reestablecer valores">
+	</form>
+<p>Manuel Martínez 2ºASIR</p>
+</body>
